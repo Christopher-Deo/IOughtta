@@ -6,7 +6,7 @@ let msg = document.getElementById("msg");
 let tasks = document.getElementById("tasks");
 let add = document.getElementById("add");
 
-//================ adding form validaton ====================
+//================ adding form validation ====================
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     formValidation();
